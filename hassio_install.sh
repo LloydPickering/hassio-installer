@@ -14,7 +14,7 @@ URL_APPARMOR_PROFILE="https://version.home-assistant.io/apparmor.txt"
 
 # Check env
 command -v systemctl > /dev/null 2>&1 || { echo "[Error] Only systemd is supported!"; exit 1; }
-command -v docker > /dev/null 2>&1 || { echo "[Error] Please install docker first"; exit 1; }
+#command -v docker > /dev/null 2>&1 || { echo "[Error] Please install docker first"; exit 1; }
 command -v jq > /dev/null 2>&1 || { echo "[Error] Please install jq first"; exit 1; }
 command -v curl > /dev/null 2>&1 || { echo "[Error] Please install curl first"; exit 1; }
 command -v avahi-daemon > /dev/null 2>&1 || { echo "[Error] Please install avahi first"; exit 1; }
